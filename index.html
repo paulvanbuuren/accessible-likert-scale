@@ -34,6 +34,25 @@
 					</fieldset>
 				</form>
 			</section>
+
+			<section>
+				<h2>aria-describedby pattern</h2>
+				<form action="#">
+					<p id="s2">Statement 2</p>
+					<input id="s2_sd" type="radio" name="rating" value="-2" aria-describedby="s2">
+					<label for="s2_sd">Strongly disagree</label>
+					<input id="s2_d" type="radio" name="rating" value="-1" aria-describedby="s2">
+					<label for="s2_d">Disagree</label>
+					<input id="s2_n" type="radio" name="rating" value="0" aria-describedby="s2">
+					<label for="s2_n">Neither agree nor disagree</label>
+					<input id="s2_a" type="radio" name="rating" value="1" aria-describedby="s2">
+					<label for="s2_a">Agree</label>
+					<input id="s2_sa" type="radio" name="rating" value="2" aria-describedby="s2">
+					<label for="s2_sa">Strongly agree</label>
+					<input id="s2_na" type="radio" name="rating" value="na" aria-describedby="s2">
+					<label for="s2_na">Not applicable</label>
+				</form>
+			</section>
 		</main>
 	</body>
 </html>
