@@ -13,6 +13,27 @@
 	<body vocab="http://schema.org/" typeof="WebPage">
 		<main role="main" property="mainContentOfPage">
 			<h1 property="name">Accessible likert scale</h1>
+
+			<section>
+				<h2>Fieldset/legend pattern</h2>
+				<form action="#">
+					<fieldset>
+						<legend>Statement 1</legend>
+						<input id="s1_sd" type="radio" name="rating" value="-2">
+						<label for="s1_sd">Strongly disagree</label>
+						<input id="s1_d" type="radio" name="rating" value="-1">
+						<label for="s1_d">Disagree</label>
+						<input id="s1_n" type="radio" name="rating" value="0">
+						<label for="s1_n">Neither agree nor disagree</label>
+						<input id="s1_a" type="radio" name="rating" value="1">
+						<label for="s1_a">Agree</label>
+						<input id="s1_sa" type="radio" name="rating" value="2">
+						<label for="s1_sa">Strongly agree</label>
+						<input id="s1_na" type="radio" name="rating" value="na">
+						<label for="s1_na">Not applicable</label>
+					</fieldset>
+				</form>
+			</section>
 		</main>
 	</body>
 </html>
